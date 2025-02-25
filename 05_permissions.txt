@@ -1,0 +1,37 @@
+all the pemissions available in my home folder
+/home/arthur
+/~
+
+from other folders I do not have a permissions to create files, edit, delete
+example /etc/apt$
+sudo touch test
+sudo nano test
+ls -l       show the permissions
+root    root    rwx
+r   read
+w   write
+x   execute
+
+
+form ~ the file will created with
+arthur  arthur
+
+drwxr-xr-x  2   root  root
+ --- --- ---
+ curent-user    group   others
+
+/etc/apt$
+sudo touch test
+ls -l test
+man chown
+sudo chown arthur test
+-rw-r--r--  1 arthur root       now I have a permission to read and write
+sudo chmod u-w test         dissable write permission to user
+sudo chmod u+w text         enable write permission to user
+sudo chmod g-rwx text 
+sudo chmod o-rwx text
+sudo chmod +x text          enabe executale to all
+sudo chmod +w test
+sudo chmod ugo+w test
+
+

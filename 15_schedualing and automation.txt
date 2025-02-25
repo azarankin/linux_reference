@@ -1,0 +1,24 @@
+chron job
+
+chrontab -l             show
+chrontab -e             edit
+
+        *       *      *       *       * echo "Hello" >> ~/file.txt
+every   min0-59 hour0-23 m.day  m.1-2 day0-6
+
+
+15 7 * * *      every day 7:15
+15 7 * * * echo "hello" >> ~/file.txt
+* 7 * * *       every minute    7:00-7:59
+15 21 10 * *    each 10th in month in 21:15
+15 21 10 8 *    8/10 21:15
+15 21 * * 0     each sunday 21:15
+15,25,35 8 * * * *  8:15    8:25    8:35
+*/10 8 * * *    each 10 minutes 8:00 8:10 8:20 8:30 8:40 8:50
+*/10 8-11 * * * each 10 minutes 8:00-11:50
+*/10 8-11 10-20 8,11 *      8:00-11:50 10-20/8
+                            8:00-11:50 10-20/11
+
+chrontab -r         remove
+
+https://crontab.guru/

@@ -1,0 +1,9 @@
+snap package manager
+
+sudo snap install tree
+tree
+snap list           view the installed list
+sudo snap refresh
+sudo snap remove tree
+snap --help
+sudo snap install code --classic        visual studio code

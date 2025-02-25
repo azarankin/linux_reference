@@ -1,0 +1,7 @@
+    myscript.bash
+sleep 3
+echo "hello world"
+
+
+chmod +x myscript.bash
+./myscript.bash

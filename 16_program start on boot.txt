@@ -1,0 +1,22 @@
+    /lib/systemd/system$
+    sudo nano ensure-log-golder-exiats.service
+[Unit]
+Description = Create log file on boot
+After = multi-user.target
+[Service]
+ExecStart = mkdir /home/arthur/logs
+User = arthur
+[Install]
+WantedBy = multi-user.target
+<CTRL S><CTRL X>
+
+sudo systemctl enable ensure-log-golder-exiats.service
+ls | grep ensure | wc           count the processes
+sudo systemctl list -unit_files
+sudo systemctl list -unit_files | grep emsure
+sudo reboot
+
+
+sudo systemctl status ensure-log-golder-exiats.service
+
+sudo systemctl disable ensure-log-golder-exiats.service

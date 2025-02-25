@@ -1,0 +1,9 @@
+pipe |
+
+ls -l
+ls -l | wc      count lines, like 14 lines
+    ll | wc
+find /usr/bin | grep dir | wc
+grep "hello" -i test.txt | wc
+cat test.txt | grep "hello" -i | wc > result.txt
+cat /etc/source.list | grep "^deb" > ~/sources.txt

@@ -1,0 +1,10 @@
+~$
+find .
+find /usr/bin
+find ~ -name "myfile.*"
+find ~ -name "my*"
+find . -maxdepth 1
+find . -maxdepth 2 - name "my*"
+
+grep "hello" -i test.txt    will return all the line with the result, -i no case sensetive
+

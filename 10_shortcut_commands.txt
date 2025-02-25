@@ -1,0 +1,9 @@
+<CTRL SHIFT C>      copy
+<CTRL SHIFT V>      past
+<CTRL C>        close process
+<CTRL A>        set text selector to begin
+<CTRL E>        set text selector to end
+<CTRL V>        delete to line begining
+<CTRL K>        delete to line end
+<CTRL R>        find the line in the history
+

@@ -1,0 +1,8 @@
+df -h           size used
+        /dev/sda_
+
+top
+
+        sudo apt install htop
+htom
+<F3> firefox <F9>               kill

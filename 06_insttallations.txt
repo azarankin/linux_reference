@@ -1,0 +1,11 @@
+sudo apt update
+sudo apt install git
+git
+
+sudo apt remove git
+(another packages: apt yam brew)
+
+sudo apt update
+sudo apt upgrade -y
+    sudo shutdown now
+sudo reboot

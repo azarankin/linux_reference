@@ -1,0 +1,28 @@
+sudo apt install vim
+vim file.txt
+<i>         edit
+<ESC w>     save
+<ESC q>     exit
+<ESC wq>    save and exit
+<DD>        delete the line
+<ESC set expandtab>
+
+
+    vim ~/vimrc <i>
+set expandtab
+set tabstor=4
+set autoindent
+    <ESC wq>
+            set spaces instead  tab, 4 spaces for each tabs, enter will begin from the previous tabe
+
+
+vimtutor            guide
+
+movement
+    <k>
+<h> <j> <l>
+
+<H>         page top
+<L>         page bottom
+<w>         continue to word begining
+

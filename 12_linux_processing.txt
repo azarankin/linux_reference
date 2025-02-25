@@ -1,0 +1,9 @@
+ps          current terminal processes
+ps aux      all the processes
+ps aux | wc
+
+firefox
+ps aux | grep firefox
+kill -9 ____
+kill -9 5161
+ps aux | grep firefox

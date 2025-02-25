@@ -1,0 +1,9 @@
+hostname            machine namehost
+hostname -I         returning the machine IP
+        10.0.2.15
+ifconfig
+ping 10.0.2.15
+ping google.com
+    sudo apt install openssh-server
+whoami
+groups

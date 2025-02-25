@@ -1,0 +1,8 @@
+<CTRL SHIFT T>      open tab
+
+terminator
+sudo apt install terminator
+<CTRL  SHIFT O>         o
+                        o
+<CTRL SHIFT E>          o o
+<CTRL SHIFT X>          O   focus / unfocus one terminal

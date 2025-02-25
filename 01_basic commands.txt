@@ -1,0 +1,25 @@
+ls
+pwd
+cd
+clear
+<TAB> <^> <v>
+ls -a       show hidden files
+touch myfile   create a files
+rm myfile     remove files
+mv myfile myfolder/
+mv myfile otherfile         rename
+cp myfile anotherfile       coping file
+mkdir myfolder/
+rm -r myfolder/
+mkdir -p dir1/dir/2dir3/
+wget https://________________file.txt       download file from the web
+cat file.txt
+less file.txt
+wc file.txt     line counter (word counter)
+echo "hello world"
+echo "hello world" > file.txt
+cat file.txt        "hello world"
+echo "hello world2" >> file.txt
+cat file.txt        "hello world" "hello world2"
+nano file.txt <CTRL X>
+history
